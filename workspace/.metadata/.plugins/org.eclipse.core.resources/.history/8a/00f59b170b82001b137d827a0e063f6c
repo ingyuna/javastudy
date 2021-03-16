@@ -1,0 +1,16 @@
+package ex03_api;
+
+/*
+ 	wrapper class
+ 	1. primitive type -> reference type 변경해주는 클래스입니다.
+ 	2. 변수  ->  객체로 변경해주는 클래스입니다.
+ 
+ 
+ */
+
+public class Ex06_wrapper_class {
+
+	public static void main(String[] args) {
+	}
+
+}

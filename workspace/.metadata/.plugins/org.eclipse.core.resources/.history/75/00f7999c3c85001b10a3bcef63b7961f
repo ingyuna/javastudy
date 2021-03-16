@@ -1,0 +1,18 @@
+package quiz09;
+
+public class Gun {
+
+	// field
+	private String mode;
+	private int bullet;
+	private final int FULL_BULLET = 6;
+	
+	// constructor
+	public Gun(String model, int bullet) {
+		this.model = model;
+		this.bullet = bullet;
+	}
+	
+	
+	
+}

@@ -1,0 +1,12 @@
+package quiz01;
+
+public class Watch {
+	
+	public void calculate(int n) {
+		if(n > 0) {
+			System.out.println();
+		calculate(n + 1);	
+		}
+	}
+
+}

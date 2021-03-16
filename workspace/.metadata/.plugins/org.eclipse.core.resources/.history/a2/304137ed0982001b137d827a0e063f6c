@@ -1,0 +1,10 @@
+package ex03_api;
+
+public class Ex06_wrapper_class {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

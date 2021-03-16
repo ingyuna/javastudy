@@ -1,0 +1,84 @@
+package quiz11;
+
+import java.util.Scanner;
+
+public class WeekScheduler {
+
+	// field
+	private int nthWeek;    // n번째 week
+	private Day[] week;
+	private String[] weekNames = { "일", "월", "화", "수", "목", "금", "토" };
+	private Scanner sc = new Scanner(System.in);
+	
+	// constructor
+	public WeekScheduler(int nthWeek) {
+		this.nthWeek = nthWeek;
+		week = new Day[7];    // schedule이 있건 없건 정보 출력할 수 있게 해놓음.
+		for (int i = 0; i < week.length; i++) {
+			week[i] = new Day();     // 괄호를 열어서 7개의 Day 객체를 미리 만들어준다. 초기화는 다 null 값으로 비어있다(=아무 스케쥴 없음)
+		}			
+	}
+	
+	// method
+	
+	// 1. run()
+	public void run() {
+		while (true) {
+			menu();  // 방금 아래에서 만든 메뉴를 보여준다.
+			System.out.println("작업 선택 >>> ");
+			int choice = sc.nextInt();
+			sc.nextLine();   // choice 입력 뒤에 남아 있는 엔터를 제거하기 위한 코드
+			switch (choice) {
+			case 1 : makeSchedule(); break;
+			case 2 : deleteSchedule(); break;
+			case 3 : updateSchedule(); break;
+			case 4 : searchSchedule(); break;
+			case 5 : printAllSchedule(); break;
+			case 0 : exit();   return;  // run() 메소드의 실행을 종료하는 코드     // break;는 생략가능. exit 하고 끝낼거기때문에.
+			default : System.out.println("없는 작업입니다. 다시 입력하세요.");
+			}
+		}
+	}
+	
+	// 2. menu()
+	public void menu() {
+		System.out.println("=====스케쥴러====");
+		System.out.println("1. 스케쥴 만들기");   // 공백을 입력할 수 있게 해줄거임 : nextLine();  choice에서 1을 입력하고 엔터를 누르면 바로 nextLine으로 넘어갈거다.
+		System.out.println("2. 스케쥴 삭제하기");
+		System.out.println("3. 스케쥴 수정하기");
+		System.out.println("4. 스케쥴 조회하기");
+		System.out.println("5. 전체 스케쥴 보기");
+		System.out.println("0. 프로그램 종료하기");
+		System.out.println("==================");
+	}
+	
+	// 3. exit()
+	public void exit() {
+		System.out.println("스케쥴러를 종료합니다.");
+		sc.close();
+	}
+	
+	
+	// 4. makeSchedule()
+	public void makeSchedule() {
+		System.out.println("===스케쥴 만들기===");
+		System.out.println("스케쥴을 등록할 요일(일~토) 입력 >>> ");
+		String weekName = sc.next();
+		for (int i = 0; i < week.length; i++) {     // 어떤 요일에 저장해야하는지 위치를 알아야하니까 for문을 써서 순회한다.
+			if (weekNames[i].equals(weekName)) {    // i 값을 알아내기 위해서 이렇게 해준다. 무슨 요일인지.
+				if (week[i].getSchedule() == null || week[i].getSchedule().isEmpty()) {
+					System.out.println(weekName + "요일의 신규 스케쥴 >>> ");
+					String schedule = sc.nextLine();
+					week[i].setSchedule(schedule);
+					System.out.println(weekName + "요일에 신규 스케쥴이 저장되었습니다.");
+					
+				}
+			}
+		
+		
+		}
+	}
+	
+	
+	
+}

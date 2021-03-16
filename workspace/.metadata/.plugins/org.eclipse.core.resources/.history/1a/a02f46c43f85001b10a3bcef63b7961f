@@ -1,0 +1,19 @@
+package quiz09;
+
+public class Soldier {
+
+	// field
+	private String name;
+	private Gun[] guns;
+	private int idx;
+	
+	// constructor
+	
+	
+	
+	
+	// method
+	
+	
+	
+}

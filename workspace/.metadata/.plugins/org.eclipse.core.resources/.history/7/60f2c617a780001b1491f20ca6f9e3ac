@@ -1,0 +1,30 @@
+package ex02_2d_array;
+
+// 3. 369 결과가 저장하고 출력하기
+// 1 2 짝 4 5 짝 7 8 짝 10
+// 11 12 짝 14 15 짝 17 18 짝 20
+// 21 22 짝 24 25 짝 27 28 짝 짝
+// 짝 짝 짝짝 짝 짝 짝짝 짝 짝 짝짝 40
+// ... 100
+
+
+
+public class Quiz03 {
+
+	public static void main(String[] args) {
+		
+		String[][] game = new String[10][10];
+		
+		// 1 ~ 100
+		
+		for (int i = 0; i < game.length; i++) {
+			for (int j = 0; j < game[i].length; j++) {
+				game[i][j] = (i + 10)  
+ 			}
+		}
+		
+		
+		
+	}
+
+}

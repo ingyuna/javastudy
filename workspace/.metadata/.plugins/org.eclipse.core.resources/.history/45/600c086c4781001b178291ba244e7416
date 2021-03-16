@@ -1,0 +1,21 @@
+package ex01_random;
+
+// 4. 가위바위보
+// 가위바위보 >>> 가위
+// Player는 가위, Computer는 보, 이겼습니다.
+// 가위바위보 >>> 바위
+// Player는 바위, Computer는 바위, 비겼습니다.
+// 가위바위보 >>> 보
+// Player는 보, Computer는 가위, 졌습니다.
+// 1승 1무입니다.
+
+
+
+public class Quiz04 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

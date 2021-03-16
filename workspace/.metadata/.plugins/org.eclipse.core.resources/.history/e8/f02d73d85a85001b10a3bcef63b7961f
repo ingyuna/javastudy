@@ -1,0 +1,27 @@
+package quiz10;
+
+public class Lecture {
+
+	// field
+	private String lectureName;
+	private Student[] students;
+	
+	// constructor
+	public Lecture(String letctureName, String[] names) {
+		this.lectureName = lectureName;
+		students = new Student[names.length];   // Student[] 배열 생성
+		// 각 학생 생성
+		for (int i = 0; i < names.length; i++) {
+			students[i] = new Student(names[i]);           // 학생을 만드는 생성자를 호출한다.
+		}
+	}
+	
+	// method
+	public void exam(int scoreCount) {
+		for (Student student : students) {
+			student.setScores(scoreCount);
+		}
+	}
+	
+	
+}

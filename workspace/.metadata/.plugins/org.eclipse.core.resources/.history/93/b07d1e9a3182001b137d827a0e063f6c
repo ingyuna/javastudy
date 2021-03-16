@@ -1,0 +1,25 @@
+package ex03_overloading;
+
+public class Rectangle {
+
+	// field
+	int width;   // 너비
+	int height;  // 높이
+	
+	// method
+	void set(int w, int h) {
+		width = w;
+		height = h;
+	}
+	
+	void set(int n) {
+		width = n;
+		height = n;
+	}
+	
+	
+	
+	
+	
+	// * 모든 클래스들의 궁극적인 목적 = 안전한 데이터 보관
+}

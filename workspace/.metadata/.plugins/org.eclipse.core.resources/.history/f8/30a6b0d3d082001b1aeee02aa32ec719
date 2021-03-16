@@ -1,0 +1,13 @@
+package ex07_recursive;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		SayHello sh = new SayHello();
+		sh.say(5);   // hello를 5번 말해봐 
+		
+
+	}
+
+}

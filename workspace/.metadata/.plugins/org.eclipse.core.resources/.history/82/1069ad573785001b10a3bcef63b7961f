@@ -1,0 +1,26 @@
+package quiz08;
+
+public class Singer {
+
+	// field
+	private String name;
+	private Song[] songs;
+	private int idx;    // 인덱스는 필드니까 초기화를 안줘도 0이다.
+	
+	// constructor
+	public Singer(String name, int songCount) {  // 이 가수가 가지게 될 노래의 갯수. 현재 노래의 배열이 없기 때문에 아직 모른다.
+		this.name = name;
+		songs = new Song[songCount];	
+	}
+	
+	// method
+	public void addSong(Song song) {
+		
+	}
+	public void info() {
+		// 가수명, 노래목록
+		
+	}
+	
+	
+}

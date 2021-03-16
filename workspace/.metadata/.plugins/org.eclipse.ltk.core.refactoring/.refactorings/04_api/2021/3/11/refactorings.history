@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ex02_String.Quiz1&apos; to &apos;Quiz01&apos;&#x0D;&#x0A;- Original project: &apos;04_api&apos;&#x0D;&#x0A;- Original element: &apos;ex02_String.Quiz1&apos;&#x0D;&#x0A;- Renamed element: &apos;ex02_String.Quiz01&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Quiz1&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;ex02_String{Quiz1.java[Quiz1" matchStrategy="1" name="Quiz01" qualified="false" references="true" similarDeclarations="false" stamp="1615355025488" textual="false" version="1.0"/>
+</session>

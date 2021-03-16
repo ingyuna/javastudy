@@ -1,0 +1,31 @@
+package quiz01;
+
+public class Watch {
+	
+	// field
+	
+	private int hour;
+	private int minute;
+	private int second;
+	
+	// constructor
+	
+	public void watch(int hour, int minute, int second) {
+		this.hour = hour;
+		this.minute = minute;
+		this.second = second;
+	}
+
+	// method
+	public void addHour(int hour) {
+		this.hour += hour;
+		hour %= 24;
+	}
+	
+	
+	
+	
+	
+	
+	
+}

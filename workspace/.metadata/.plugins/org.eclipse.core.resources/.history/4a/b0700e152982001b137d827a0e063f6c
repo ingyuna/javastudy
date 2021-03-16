@@ -1,0 +1,13 @@
+package quiz02;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		Calculator calc; // 객체는 없고, 참조 변수만 있는 사태입니다.
+		
+		
+
+	}
+
+}

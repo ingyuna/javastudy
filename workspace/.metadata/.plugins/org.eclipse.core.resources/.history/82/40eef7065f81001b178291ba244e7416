@@ -1,0 +1,24 @@
+package ex02_String;
+
+public class Ex01_String {
+
+	public static void main(String[] args) {
+		
+		// 1. 동일한 문자열 리터럴은 자바에 의해서 최적화 되기 때문에
+		//     "apple"이 하나만 생깁니다.
+		String a = "apple";
+		String b = "apple";
+		System.out.println(a == b);  // 참조비교(주소비교) --> apple 비교한게 아님. 값이 true라고 나오면 그 주소값이 같다는말.
+		                    // 자바가 스스로 개입해서 하나만 쓴다. 최적화를 위해서
+							// apple은 지금 하나만 있는거. 각 a와 b는 그 주소가 들어가 있는것.
+		
+		// 2. new는 무조건 새로 만듭니다.
+		// 		"banana"는 2개가 있습니다.
+		String c = new String("banana");
+		String c = new String("banana");
+		System.out.println(c == d);  // 참조비교(주소비교)  --> false라고 나온다. 주소 값이 다르다는말.
+		
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package quiz04;
+
+public class Soldier {
+
+	// field
+	private String name;
+	private Gun gun;
+	
+	// constructor (=생성자)
+	
+	private Soldier(String name) {
+		this.name = name;
+	}
+	
+	
+}

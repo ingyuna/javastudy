@@ -1,0 +1,13 @@
+package ex02_method;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+	
+		Person p = new Person();
+		
+		p.set("alice", 30, '여', false);     // 인수가 4개 
+
+	}
+
+}

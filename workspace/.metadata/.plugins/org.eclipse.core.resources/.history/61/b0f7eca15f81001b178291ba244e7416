@@ -1,0 +1,23 @@
+package ex02_String;
+
+
+// 1. 시간을 입력 받아서 출력하기
+// 시간 >>> 9
+// 분 >>> 5
+// 초 >>> 30
+// 9:05:30         --> 5 -> 05로 바꿔보라는 작업 (=문제의 목표)
+
+public class Quiz1 {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

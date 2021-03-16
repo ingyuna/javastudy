@@ -1,0 +1,11 @@
+package quiz04;
+
+public class Soldier {
+
+	// field
+	private String name;
+	private Gun gun;
+	
+	
+	
+}

@@ -1,0 +1,18 @@
+package quiz02;
+
+public class Circle {
+
+	// field
+	private Coord center;
+	private double radius;
+	
+	// constructor
+	
+	public Circle (int center, double radius) {
+		this.center = center;
+		this.radius = radius;
+	}
+	
+	
+	
+}

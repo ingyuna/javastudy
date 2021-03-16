@@ -1,0 +1,13 @@
+package quiz02;
+
+public class Coord {    // x, y를 클래스로 구성한것 
+	
+	// field
+	private int x;
+	private int y;
+	
+	
+	
+	
+
+}

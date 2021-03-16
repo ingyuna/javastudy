@@ -1,0 +1,26 @@
+package quiz06;
+
+public class Bakery {
+
+	// field 
+	private int breadCount;
+	private int breadPrice;
+	private int bakeryMoney;
+	
+	// constructor
+	public Bakery(int breaCount, int breadPrice, int bakeryMoney) {
+		this.breadCount = breadCount;
+		this.breadPrice = breadPrice;
+		this.bakeryMoney = bakeryMoney;
+	}
+	
+	
+	// method
+	
+	// 1. 판매 메소드
+	
+	// 2. info
+	
+	
+	
+}

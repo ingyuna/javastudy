@@ -1,0 +1,10 @@
+package quiz05;
+
+public class Circle {
+
+	// field
+	double radious;  //반지름
+	
+	// method 
+	
+}

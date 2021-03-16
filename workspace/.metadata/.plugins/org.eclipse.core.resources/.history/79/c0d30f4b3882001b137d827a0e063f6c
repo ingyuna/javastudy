@@ -1,0 +1,12 @@
+package ex04_this;
+
+public class Car {
+
+	void info() {
+		System.out.println(this);
+	}
+	
+	
+	
+	
+}

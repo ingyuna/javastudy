@@ -1,0 +1,43 @@
+package ex04_this;
+
+/*
+   this
+   1. this는 객체자신을 의미한다.
+   2. 어떤 클래스 내부에서만 사용합니다.
+   3. 활용
+   	  1) this.필드     (가장 주된 활용)
+   	  2) this() 
+   	  
+   	  
+*/   	  
+
+public class Car {
+
+	// field
+	String model;
+	String manufacturer;
+	int price;
+	
+	// method
+	void set(String model, String manufacturer, int price) {
+		this.model = model;       // this.model = String model; (=필드값의 String model;)
+		this.manufacturer = manufacturer;     // model = String model
+		this.price = price;
+	}
+	
+	void info() {
+		System.out.println("모델명: " + model);
+		System.out.println("제조사: " + manufacturer);
+		System.out.println("가격:" + price + "만원");
+	}
+	
+	
+	
+	void info() {
+		System.out.println("this: " + this);
+	}
+	
+	
+	
+	
+}

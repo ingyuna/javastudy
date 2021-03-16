@@ -1,0 +1,38 @@
+package quiz09;
+
+public class Soldier {
+
+	// field
+	private String name;
+	private Gun[] guns;
+	private int idx;
+	
+	// constructor
+	public Soldier(String name, int gunCount) {
+		this.name = name;
+		this.guns = new Gun[gunCount];
+	}
+	
+	// method
+	public void addGun(Gun gun) {
+		if (idx < guns.length) {
+			guns[idx++] = gun;   //idx : 현재 저장된 총으 ㅣ갯수
+		} else {
+			System.out.println("더 이상 총을 추가할 수 없습니다.");
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

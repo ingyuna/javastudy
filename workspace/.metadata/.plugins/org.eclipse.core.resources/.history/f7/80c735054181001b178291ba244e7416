@@ -1,0 +1,19 @@
+package ex01_random;
+
+// 2. UpDown게임
+// 1 ~ 10000 사이의 난수가 발생되면 사용자가 해당 난수를 맞히는 게임
+// 입력 >>> 5000
+// Up
+// 입력 >>> 7500
+// Down
+// 입력 >>> 7499
+// 총 3번만에 정답
+
+public class Quiz02 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package quiz03;
+
+public class Singer {
+
+	// field
+	private Song song;    // private Song[] songs;  궁극적으로는 이렇게 배열로 바뀌는게 목적
+	
+	
+}

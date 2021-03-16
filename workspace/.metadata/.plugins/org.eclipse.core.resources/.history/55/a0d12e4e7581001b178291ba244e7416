@@ -1,0 +1,20 @@
+package ex03_api;
+
+public class Ex02_Date {
+
+	public static void main(String[] args) {
+	
+		// java.util.Date    => import 해준다.
+		
+		// 1. 자바 내에서 사용하는 날짜/시간 처리 클래스입니다.
+		// 많은 메소드가 deprecate 되었기 때문에 사용하지 않아도 좋습니다.     (*deprecate : (사용을)반대한다)
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package quiz07;
+
+public class Game {
+
+	// field
+	private Player[] players;
+	// private Player[] player = new Player[playerCount];
+	// private Player[] players = new Player[2]; 위에처럼 이게 완성본인데 필드에 이렇게 해줄 순 없고 분리를 해줘야 한다. 왜냐면 몇명이 올지 모르는데 2명으로 잡아놓고 시작하면 안됨.
+	
+	// constructor
+	public Game(int playerCount) {
+		players = new Player[playerCount];  // 선언과 배열의 생성을 분리한다.
+	}
+	
+	// method
+	public void setPlayers() {
+							// 플레이어 이름만 정해주면 된다.
+	}
+	
+	
+}

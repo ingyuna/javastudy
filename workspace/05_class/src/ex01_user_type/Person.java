@@ -1,0 +1,27 @@
+package ex01_user_type;
+
+/*
+ 
+ 	클래스 구성
+ 	1. 필드 (field)
+ 		: 클래스에 선언한 변수 (값)
+ 	2. 메소드 (method)
+ 		: 클래스에 정의한 함수 (기능)
+*/
+
+public class Person {
+
+	// 필드를 선언합니다. (변수를 선언합니다.)
+	// 일반 변수와 다르게 필드는 자동으로 초기화가 됩니다. (0, false, null 등)
+	
+	
+					// 초기화 값
+	String name;  // null
+	int age;   // 0
+	double height;  // 0.0
+	char gender;  // '\0' (널 문자)   => 보이지는 않지만 존재하는 문자 
+	boolean isKorean;   // false
+						// Person을 만들면 이렇게 5개를 한번에 가지게 된다.
+	
+	
+}

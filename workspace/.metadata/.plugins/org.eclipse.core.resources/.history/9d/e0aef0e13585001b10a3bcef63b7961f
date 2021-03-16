@@ -1,0 +1,25 @@
+package quiz08;
+
+public class Singer {
+
+	// field
+	private String name;
+	private Song[] songs;
+	private int idx;
+	
+	// constructor
+	public Singer(String name, int songCount) {  // 이 가수가 가지게 될 노래의 갯수
+		
+	}
+	
+	// method
+	public void addSong(Song song) {
+		
+	}
+	public void info() {
+		// 가수명, 노래목록
+		
+	}
+	
+	
+}

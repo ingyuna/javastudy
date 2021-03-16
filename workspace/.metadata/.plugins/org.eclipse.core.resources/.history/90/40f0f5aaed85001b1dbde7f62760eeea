@@ -1,0 +1,40 @@
+package quiz11;
+
+import java.util.Scanner;
+
+public class WeekScheduler {
+
+	// field
+	private int nthWeek;    // n번째 week
+	private Day[] week;
+	private String[] weekNames = { "일", "월", "화", "수", "목", "금", "토" };
+	private Scanner sc = new Scanner(System.in);
+	
+	// constructor
+	public WeekScheduler(int nthWeek) {
+		this.nthWeek = nthWeek;
+		week = new Day[7];    // schedule이 있건 없건 정보 출력할 수 있게 해놓음.
+		for (int i = 0; i < week.length; i++) {
+			week[i] = new Day();     // 괄호를 열어서 7개의 Day 객체를 미리 만들어준다. 초기화는 다 null 값으로 비어있다(=아무 스케쥴 없음)
+		}			
+	}
+	
+	// method
+	
+	// 1. run()
+	public void run() {
+		
+	}
+	
+	// 2. menu()
+	public void menu() {
+		System.out.println("=====스케쥴러====");
+		System.out.println("1. 스케쥴 만들기");
+		System.out.println("2. 스케쥴 삭제하기");
+		System.out.println("3. 스케쥴 수정하기");
+		System.out.println("4. 스케쥴 조회하기");
+		System.out.println("0. 프로그램 종료하기");
+	}
+	
+	
+}

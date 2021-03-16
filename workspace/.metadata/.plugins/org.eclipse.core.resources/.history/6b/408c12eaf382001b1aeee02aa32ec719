@@ -1,0 +1,22 @@
+package quiz04;
+
+public class Gun {
+	
+	
+	private String model;
+	private int bullet;
+	private final int FULL_BULLET = 6;
+	
+	
+	// constructor
+	public Gun(String model, int bullet) {  // 각 K2, 2를 저장 
+		this.model = model;   // 이 총의 모델은 = K2
+		this.bullet = bullet;		
+	}
+	
+	// method
+	
+	
+	
+
+}

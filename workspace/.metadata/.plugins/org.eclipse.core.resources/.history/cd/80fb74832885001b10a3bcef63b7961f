@@ -1,0 +1,23 @@
+package quiz06;
+
+public class Customer {
+
+	// field
+	private int customerBread;
+	private int customerMoney;
+	
+	// constructor
+	public Customer(int customerBread, int customerMoney) {
+		this.customerBread = customerBread;
+		this.customerMoney = customerMoney;
+	}
+	
+	
+	
+	
+	// method
+	
+	// buy 
+	
+	
+}

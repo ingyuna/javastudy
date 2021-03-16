@@ -1,0 +1,23 @@
+package quiz07;
+
+public class Player {
+
+	// field 
+	private String name;
+	
+	// constructor
+	public Player(String name) {
+		this.name = name;
+	}
+
+	// method
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+}

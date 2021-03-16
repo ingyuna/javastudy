@@ -1,0 +1,74 @@
+package quiz10;
+
+import java.text.DecimalFormat;
+import java.util.Arrays;
+
+public class Student {
+
+	// field
+	private String name;
+	private int[] scores;	// 점수들
+	private double average;  // 평균
+	private char grade;		// 학점(A~F)
+	private boolean isPass;  // 합격유무(평균 60이상 "합격")
+	
+	// constructor
+	public Student(String name) {
+		this.name = name;
+	}
+
+	
+	// method       -> getter와 setter
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int[] getScores() {
+		return scores;
+	}
+
+	public void setScores(int[] scores) {
+		this.scores = scores;
+	}
+
+	public double getAverage() {
+		return average;
+	}
+
+	public void setAverage(double average) {
+		this.average = average;
+	}
+
+	public char getGrade() {
+		return grade;
+	}
+
+	public void setGrade(char grade) {
+		this.grade = grade;
+	}
+
+	public boolean isPass() {
+		return isPass;
+	}
+
+	public void setPass(boolean isPass) {
+		this.isPass = isPass;
+	}
+	
+	public void info() {
+		System.out.println("이름: " + name);
+		System.out.println("점수: " + Arrays.toString(scores));  // *Arrays는 Ctrl+Space bar 눌러서 임포트 해준다. Ex : [50, 72, 95, 84, 60]
+		System.out.println("평균: " + new DecimalFormat("0.00").format(average) + "점");  // 소수 2자리만 출력   DecimalFormat("0.00")  ->(소수점을 지정해줌)
+		System.out.println("학점: " + grade + "학점");
+		System.out.println(isPass ? "합격" : "불합격");
+	}
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,22 @@
+package quiz06;
+
+public class Bakery {
+
+	// field 
+	private int breadCount;
+	private int breadPrice;
+	private int bakeryMoney;
+	
+	// constructor
+	public 
+	
+	
+	// method
+	
+	// 1. 판매 메소드
+	
+	// 2. info
+	
+	
+	
+}

@@ -1,0 +1,47 @@
+package ex02_method;
+
+/*
+ 	메소드 (method)
+ 	1. 구성
+ 		1) 결과타입
+  		2) 메소드명
+  		3) 매개변수
+	2. 정의
+		결과타입 메소드명(매개변수) {
+			메소드본문
+		}
+
+ */
+
+
+
+public class Person {
+
+	// field
+	String name;
+	int age;
+	char gender;
+	boolean iskorean;
+	
+	
+	// method (field를 사용할 수 있는 함수)
+	// 1. 결과타입 : 결과값이 없다. (void)
+	// 2. 메소드명 : set
+	// 3. 매개변수 : String n, int a, char g, boolean isK
+	// 4. 역할 : 전달되는 인수로 필드에 전달합니다.
+	void set(String n, int a, char g, boolean isK) {
+		name = n;
+		age = a;
+		gender = g;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,13 @@
+package quiz05;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		
+		Circle won = new Circle();
+		won.setRadi
+
+	}
+
+}

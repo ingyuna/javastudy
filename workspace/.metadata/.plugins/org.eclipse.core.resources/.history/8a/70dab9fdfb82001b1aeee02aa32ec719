@@ -1,0 +1,26 @@
+package quiz05;
+
+public class BankAccount {
+
+	// field
+	private String accNo;
+	private long balance;      // in 잔액이 21억 넘으면 안되니까 long으로 써준다.
+	
+	// constructor
+	public BankAccount(String accNo, long balance) {
+		this.accNo = accNo;
+		this.balance = balance;
+	}
+	
+	// method
+	public void deposit(int money) {  // 입금할 돈 받아오기
+		if (money <= 0)  	 {   // 검사하기(0포함 0보다 작지x)
+			System.out.println(money + "원은 입금할 수 없습니다.");
+		}
+	}
+	
+	
+	
+	
+	
+}
