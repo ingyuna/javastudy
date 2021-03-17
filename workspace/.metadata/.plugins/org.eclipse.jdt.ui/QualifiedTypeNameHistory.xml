@@ -18,9 +18,17 @@
 <fullyQualifiedTypeName name="java.awt.Rectangle"/>
 <fullyQualifiedTypeName name="ex07_recursive.Calculator"/>
 <fullyQualifiedTypeName name="quiz06.BreadAndChange"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="quiz04.Soldier"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
+<fullyQualifiedTypeName name="quiz11.WeekScheduler"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="quiz12.SeatGroup"/>
+<fullyQualifiedTypeName name="quiz12.ConcertHall"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="ex04_constructor.Student"/>
+<fullyQualifiedTypeName name="ex06_override.Coffee"/>
+<fullyQualifiedTypeName name="ex06_override.Espresso"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="ex07_override.GogumaPizza"/>
 </qualifiedTypeNameHistroy>

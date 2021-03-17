@@ -30,9 +30,10 @@ public class Seat {
 	// 5. 좌석 확인
 	public void info() {
 		if (name == null) {
-			System.out.println("가능");
+			System.out.print("가능");
 		} else {
-			System.out.println(name);
+			System.out.print(name.charAt(0) + "*" + (name.length() > 2 ? name.charAt(name.length() -1) : ""));   // 제*드 이런식으로 할려고함. 마지막은 (2)라고 하면 안되는게 이름이 4글자일수도 있으니까. 
+																			// 이름이 2글자일수도 있으니까 이렇게 설정해주기.							
 		}
 	}
 	

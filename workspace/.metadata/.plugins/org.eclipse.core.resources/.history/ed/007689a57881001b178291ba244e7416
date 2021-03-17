@@ -1,9 +1,0 @@
-package ex03_api;
-
-public class Ex04_Calendar {
-
-	public static void main(String[] args) {
-		
-	}
-
-}
