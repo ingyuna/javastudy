@@ -29,6 +29,12 @@
 <fullyQualifiedTypeName name="ex04_constructor.Student"/>
 <fullyQualifiedTypeName name="ex06_override.Coffee"/>
 <fullyQualifiedTypeName name="ex06_override.Espresso"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="ex07_override.GogumaPizza"/>
+<fullyQualifiedTypeName name="quiz.SalaryMan"/>
+<fullyQualifiedTypeName name="quiz.SalesMan"/>
+<fullyQualifiedTypeName name="quiz.Alba"/>
+<fullyQualifiedTypeName name="ex08_upcasting.Tv"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="ex09_upcasting.Espresso"/>
+<fullyQualifiedTypeName name="ex09_upcasting.Latte"/>
 </qualifiedTypeNameHistroy>

@@ -4,11 +4,17 @@
 	</section>
 	<section name="ExternalProjectImportWizard">
 		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
-		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\SPRING0303\javastudy\workspace\06_oop"/>
+			<item value="D:\SPRING0303\javastudy\workspace\05_class"/>
+			<item value="D:\SPRING0303\javastudy\workspace\04_api"/>
+			<item value="D:\SPRING0303\javastudy\workspace\03_array"/>
+			<item value="D:\SPRING0303\javastudy\workspace\02_control"/>
+			<item value="D:\SPRING0303\javastudy\workspace\01_basic"/>
 			<item value="C:\Users\ITSC\Desktop\07_inheritance"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
