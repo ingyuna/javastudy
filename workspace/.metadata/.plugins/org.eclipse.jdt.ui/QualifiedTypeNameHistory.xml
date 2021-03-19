@@ -34,7 +34,11 @@
 <fullyQualifiedTypeName name="quiz.SalesMan"/>
 <fullyQualifiedTypeName name="quiz.Alba"/>
 <fullyQualifiedTypeName name="ex08_upcasting.Tv"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="ex09_upcasting.Espresso"/>
 <fullyQualifiedTypeName name="ex09_upcasting.Latte"/>
+<fullyQualifiedTypeName name="quiz02.Company"/>
+<fullyQualifiedTypeName name="ex11_abstract.SalaryMan"/>
+<fullyQualifiedTypeName name="ex12_abstract.Rectangle"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="quiz04.KoreanFighter"/>
 </qualifiedTypeNameHistroy>
