@@ -62,7 +62,7 @@ public class Ex06_continue {
 		while (count < 3) {
 			System.out.println("소원을 말해보세요");
 			String wish = sc.next();
-			if (wish.contentEquals("로또당첨")) {
+			if (wish.equals("로또당첨")) {
 				continue;      //카운팅안하고 위로 돌려보내겠다. 카운트를 안하면 소원3개에는 포함 x. 
 			}
 			wishList += wish;
