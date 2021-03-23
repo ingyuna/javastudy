@@ -46,7 +46,8 @@ public class IteratorMainClass {
 		Iterator<String> itr2 = list.iterator();
 		
 		while (itr2.hasNext()) {
-			System.out.println(itr2.next());
+			System.out.println(itr2.next());    // 위에처럼 String str = itr.next(); 여기에 요소 저장하고, 
+			                                    // System.out.println(str) 이렇게 해도 된다. 똑같은거임. 
 		}
 		
 	}
