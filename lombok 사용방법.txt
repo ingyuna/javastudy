@@ -1,0 +1,65 @@
+﻿lombok 사용방법
+
+
+1. lombok 설치
+
+1) 명령 프롬포트 실행 (커멘드)
+
+2) lombok.jar 파일이 있는 디렉토리로 이동
+cd D:\SPRING0303\install\jar\LOMBOK 
+
+3) lombok.jar 실행
+java - jar lombok.jar 입력 -> lombok.jar 
+
+﻿4) Specify location... 클릭 후
+lombok을 설치할 eclipse를 선택 ﻿(eclipse/eclipse.exe)
+﻿
+5) Intstall / Update 클릭
+
+6) Quit Installer 클릭
+
+﻿7) 확인
+eclipse/eclipse.ini 파일 (메모장으로 열어서 확인 : 우클릭 [편집])
+-javaagent:D:\SPRING0303\install\eclipse\lombok.jar
+﻿
+※ 이클립스 이동 등 사유로 경로가 바뀌게 되면 이클립스가 안 켜지므로
+javaagent의 경로를 다시 올바르게 수정해 줘야 합니다.
+
+﻿※ 경로에 공백이나 한글이 포함되어도 이클립스가 안 켜집니다.
+
+﻿8) 이클립스 재시작
+
+﻿
+-------------------------------------
+
+
+﻿
+2. lombok 사용방법
+
+프로젝트에 lombok.jar 라이브러리를 추가합니다.
+
+1) 프로젝트 우클릭 - [Bild Path] - [Configure Build Path]
+2) Libraries 탭 - [Add External Jars...]
+3) D:\SPRING0303\install\eclipse\lombok.jar 선택
+
+﻿
+
+---------------------------------
+
+﻿
+3. lombok 활용하기
+
+클래스에 필드만 작성하고 애너테이션을 추가합니다. (=> 생성자와 메소드를 만들지 X)
+
+1) @Getter : Getter를 추가해 줍니다.
+2) @Setter : Setter를 추가해 줍니다.
+3) @NoArgsConstructor : 매개변수가 없는 생성자를 추가해 줍니다. (디폴트생성자)
+4) @AllArgsConstructor : 모든 필드에 매개변수를 전달하는 생성자를 추가합니다.
+(=Generate using field 같은 애들)
+5) @Data : Getter, Setter, 생성자 등을 추가해 줍니다.
+
+﻿
+
+
+
+﻿

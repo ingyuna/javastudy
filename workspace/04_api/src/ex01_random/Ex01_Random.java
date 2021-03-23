@@ -25,7 +25,7 @@ public class Ex01_Random {
 		// 2. double 난수
 		double rand3 = random.nextDouble(); // 0 <= 난수 < 1
 		System.out.println(rand3); 			// 0% <= 난수 < 100%  (퍼센트로 바꿨을시 이렇게 되니까)
-                                // dobule난수는 뭘 맞출려는 목적이 아니다.	
+                                // double난수는 뭘 맞출려는 목적이 아니다.	
 								// 확률 처리용으로 쓰고싶어서 소수점 난수를 쓴다!
 		
 		
