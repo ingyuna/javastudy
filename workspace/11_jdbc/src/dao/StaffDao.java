@@ -67,7 +67,7 @@ public class StaffDao {
 			sql = "SELECT MAX(no) FROM staff";
 			ps = con.prepareStatement(sql);
 			rs = ps.executeQuery();
-			if (rs.next());{
+			if (rs.next()) {
 				no = rs.getInt(1);
 			}
 		} catch (Exception e) {
